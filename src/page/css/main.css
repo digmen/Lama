@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    /* cursor: none; */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.one {
+    height: 100vh;
+    display: block !important;
+    background: linear-gradient(135deg, #0129FF 0%, #BFAEFF 100%);
+}
+
+.nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    align-items: center;
+}
+
+.nav a{
+   padding-top: 25px;
+   font-size: 36px;
+   color: white;
+   height: 60px;
+}
+
+.main_one_text{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
+
+.main_span:first-child{
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 96px */
+    letter-spacing: 11.52px;
+    width: 600px;
+}
+
+.main_span:nth-child(2){
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 72px */
+    letter-spacing: 8.64px;
+}
+
+.anim_div{
+    position: absolute;
+    left: 75%;
+}
+
+.anim_div img {
+    animation: slideUp 10s linear infinite; /* Настройки анимации: время и тип анимации */
+
+.main_two {
+    display: flex;
+    gap: 40px;
+    max-height: 100vh;
+    padding-top: 50px;
+}
+.main_two span{
+    color: #1336FF;
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%; /* 72px */
+    letter-spacing: 8px;
+}
+
+.main_two span:nth-child(2){
+    color: #000;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 120%; /* 77.76px */
+}
+
+.main_three{
+    background: linear-gradient(135deg, #0A30FF 0%, #9E97FF 100%);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    border-radius: 20px;
+}
+
+.main_three img{
+    width: 1000px;
+    height: 70vh;
+}
+
+.main_three h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.about_main{
+    width: 100%;
+    height: 100vh;
+    background: #495CFF;
+}
+.about_main h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart_name{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.cart_name span{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+.cart_ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 2px solid #FFF;
+    gap: 60px;
+}
+
+.cart_ab span{
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.crat_ab_ab{
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crat_ab_ab span{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-weight: 500;
+}
+
+}
+  
+@keyframes slideUp {
+    0% {
+      transform: translateY(100vh);
+    }
+    100% {
+      transform: translateY(-200vh); /* Измените значение, чтобы определить, насколько далеко уходит изображение */
+    }
+}
+  
