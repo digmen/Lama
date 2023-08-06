@@ -69,7 +69,18 @@
 }
 
 .anim_div img {
-    animation: slideUp 10s linear infinite; /* Настройки анимации: время и тип анимации */
+    animation: slideUp 20s linear infinite; /* Настройки анимации: время и тип анимации */
+}
+  
+@keyframes slideUp {
+    0% {
+      transform: translateY(100vh);
+    }
+    100% {
+      transform: translateY(-200vh); /* Измените значение, чтобы определить, насколько далеко уходит изображение */
+    }
+}
+  
 
 .main_two {
     display: flex;
@@ -89,6 +100,7 @@
 .main_two span:nth-child(2){
     color: #000;
     text-align: justify;
+    font-family: Quicksand;
     font-size: 24px;
     font-weight: 400;
     line-height: 120%; /* 77.76px */
@@ -196,15 +208,3 @@
     text-align: center;
     font-weight: 500;
 }
-
-}
-  
-@keyframes slideUp {
-    0% {
-      transform: translateY(100vh);
-    }
-    100% {
-      transform: translateY(-200vh); /* Измените значение, чтобы определить, насколько далеко уходит изображение */
-    }
-}
-  
