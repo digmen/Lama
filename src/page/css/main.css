@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-    /* cursor: none; */
 }
 
 .container{
@@ -55,7 +54,6 @@
 
 .main_span:nth-child(2){
     color: #FFF;
-    font-family: Quicksand;
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -69,7 +67,7 @@
 }
 
 .anim_div img {
-    animation: slideUp 20s linear infinite; /* Настройки анимации: время и тип анимации */
+    animation: slideUp 10s linear infinite; /* Настройки анимации: время и тип анимации */
 }
   
 @keyframes slideUp {
