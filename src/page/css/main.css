@@ -206,3 +206,23 @@
     text-align: center;
     font-weight: 500;
 }
+
+.admin{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 10%;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #495CFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

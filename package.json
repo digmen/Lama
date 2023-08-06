@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
+    "axios": "^1.4.0",
     "flickity": "^3.0.0",
     "framer-motion": "^10.15.0",
     "fullpage": "^1.5.1",
